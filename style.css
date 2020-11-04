@@ -1,0 +1,41 @@
+
+
+
+    td {
+        width: 40px;
+        height: 20px;
+        border-width:1px;
+        border-style:solid;
+    }
+
+    tr:nth-child(even) {
+        text-transform: capitalize;
+    }
+
+    tr:nth-child(odd){
+        background: gray;
+    }
+
+    .tableUn {
+        caption-side: top;
+        border-collapse: separate;
+        empty-cells: hide;
+    }
+
+    .tableDeux {
+        caption-side: bottom ;
+        border-collapse: separate;
+        empty-cells: show;
+    }
+
+    .tableTrois {
+        caption-side: top;
+        border-collapse: collapse;
+        empty-cells: show;
+    }
+
+    .tableQuatre {
+        caption-side: bottom ;
+        border-collapse: collapse;
+        empty-cells: hide;
+    }
